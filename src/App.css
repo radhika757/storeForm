@@ -1,6 +1,7 @@
-body{
-  background-color: #F0F0F0;
+body {
+  background-color: #f0f0f0;
 }
+
 .box {
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -9,11 +10,12 @@ body{
   justify-content: center;
   position: absolute;
   width: 60em;
-  top: 20%;
+  height: 30em;
+  top: 5%;
   left: 13%;
 }
 
-.left-box{
+.left-box {
   flex: 1 1;
   border-right: 1px solid #f0f0f0;
   padding: 5px 15px;
@@ -22,13 +24,13 @@ body{
   display: flex;
   justify-content: center;
 }
-.right-box{
+.right-box {
   flex: 1;
 }
-label{
+label {
   display: block;
 }
-input{
+input {
   padding: 10px 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -36,7 +38,7 @@ input{
   border-radius: 10px;
 }
 
-button{
+button {
   padding: 10px 15px;
   cursor: pointer;
   border: none;
@@ -45,4 +47,12 @@ button{
   color: white;
   width: 10em;
   margin: 15px 0;
+}
+.data {
+  margin: 15px 0;
+  text-align: left;
+  padding: 0 15px;
+}
+.data div {
+  margin: "10px";
 }
